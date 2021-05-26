@@ -1,0 +1,83 @@
+/*.box {
+	border-style:solid;
+		height:300px}
+		
+*/
+
+*{box-sizing:border-box;}
+.cname {
+	background-color:#B60A7F ;
+	height:150px;
+	text-align:center;
+	font-size:40px;
+	color:white;
+	padding-top:55px;
+	/*font-family: 'Lobster', cursive; */
+	font-family: 'Nova Flat', cursive;
+
+}
+.menu{border-style: solid;
+      border-color:#2B9B02;
+		text-align: center;
+		background-color:#2B9B02;
+		height:35px;
+		padding-top:5px;}
+		
+.menu a{
+	color:black;
+	text-decoration:None;
+	display:block;
+}
+.banner{
+	background-image:url('../photos/background2.jpg');
+	height:500px;
+	margin-top:0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	text-align: center;
+	text-decoration: bold;
+	
+}
+.about{
+	    border-style:none;
+		border-color:#2B9B02; 
+		text-align: center;
+		background-color:#2B9B02;
+		height:35px;
+		padding-top:5px;
+		margin-top:5px;
+		box-shadow:none;
+		text-decoration:bold;
+}
+.footer{
+	    border-style:none;
+		border-color:#B60A7F ; 
+		text-align: center;
+		background-color:#B60A7F ;
+		height:150px;
+		padding-top:5px;
+		margin-top:5px;
+		box-shadow:3px 3px#B60A7F ;
+		text-decoration:bold;
+}
+.flyer{
+	background-image:url('../photos/background2.jpg');
+	height:500px;
+	margin-top:3px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	text-align: center;
+	text-decoration: bold;
+	
+}
+.about_content{
+	   	text-align: justify;
+		background-color:white;
+		padding-top:2px;
+		margin-top:5px;
+		text-decoration:bold;
+		font-family: 'Nova Flat', cursive;
+	
+}
